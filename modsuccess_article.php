@@ -1,0 +1,2 @@
+<center> <h1 style="color:red;"> ARTICLE MODIFIE AVEC SUCCES!!!</h1> <a href="main/admin.php?page=gesart"><b>Retour</b> </a> 
+				              <img src="images/business-woman.jpg" alt="bachelier"  width="400" height="298"/>  </center>

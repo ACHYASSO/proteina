@@ -1,0 +1,60 @@
+/*test css etudiant*/
+body {
+	font-family: "Comic Sans MS", cursive;
+	width: 1024px;
+	margin: auto
+}
+table {
+	width: 80%;
+	margin:auto;
+	border: none;
+	margin-bottom: 5px;
+	background-image: url(../images/paper_2.jpg);
+	background-size: cover;
+	border-collapse: collapse;
+}
+th {
+
+}
+td {
+}
+nav a {
+	text-shadow: 0px 0px 1px;
+}
+h3{
+	color: #F60;
+}
+#fiche_etudiant{
+	background-color: white;
+	margin-bottom: 10px;
+}
+table:hover{
+	-webkit-box-shadow: 0px 0px 0px 3px blue
+}
+.photo_etu{
+		margin-left: 60px;
+		margin-bottom: 80px;
+		-webkit-box-shadow: 0px 0px 0px 1px
+}
+.info_etu{
+		margin-left: 20px;
+}
+.modif{ margin-left: 350px}
+.suppr{ margin-left:50px}
+section {
+	background-color: #FFF;
+	-webkit-box-shadow: 0px 1px 2px 0px gray;
+	margin-top: 3px;
+	padding: 2px;
+}
+aside {
+	background-color: #FFF;
+	-webkit-box-shadow: 0px 1px 2px 0px gray;
+	margin-top: 3px;
+	padding: 2px;
+}
+.pttemod{margin-left: 200px}
+
+.droite{
+	float:right;
+}

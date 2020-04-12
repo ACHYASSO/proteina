@@ -1,0 +1,8 @@
+/*Le corps*/
+body {
+	
+	/*Effet parallax*/
+	background: url(../images/photo.jpg) no-repeat fixed center -12px transparent;
+	background-size: cover;
+	
+}
