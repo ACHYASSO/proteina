@@ -11,7 +11,7 @@ $names=[];
 
 if(isset($_GET["parametre"])){ 
 	$parametre = $_GET["parametre"];
-  	$reponse = ("SELECT Id_ems, Nom_ems FROM ems WHERE Pays_ems ='$parametre' ") or die(mysqli_error() );
+  	$reponse = ("SELECT Id_ems, Nom_ems FROM ems WHERE Id_domaine ='$parametre' ") or die(mysqli_error() );
   	$resultat = $connection->query($reponse);
 	while ( $row=mysqli_fetch_array($resultat ) ) {
 		array_push($names, [

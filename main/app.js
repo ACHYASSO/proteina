@@ -51,7 +51,7 @@ let select2 = document.getElementById("select2");
 select2.addEventListener("change", function(e){ //Appelée lors du changement
 
 	//recuperer l'element selectionné
-	let selection = select1.value;
+	let selection = e.target.value;
 
 	
 	//charger les pays depuis la BDD directement
