@@ -2,7 +2,7 @@
          
 
   
-		$connection = mysqli_connect('localhost','root','','huawei');
+		$connection = mysqli_connect('localhost','root','root','huawei');
 		       // Style procédural
 		mysqli_set_charset($connection, "utf8");
 
